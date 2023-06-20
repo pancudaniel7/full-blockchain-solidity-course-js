@@ -15,14 +15,13 @@ Welcome to the repository for the Ultimate Web3, Full Stack Solidity, and Smart 
 
 All code references have both a javascript and a typescript edition.
 
-Recommended Testnet: Goerli
+Recommended Testnet: Sepolia
 
-*We have updated the repos to work with Goerli due to Rinkeby and Kovan being sunset. Let us know if any of the changes break stuff!*
+*We have updated the repos to work with Sepolia due to Rinkeby and Kovan being sunset, and Goerli being a disaster. Let us know if any of the changes break stuff!*
 
 # [Testnet Faucets](https://faucets.chain.link)
-Main Faucet: https://faucets.chain.link
-
-Backup Faucet: https://goerlifaucet.com/
+Main Faucet:<a href="https://faucets.chain.link" target="_blank"> https://faucets.chain.link</a>
+Backup Faucet:<a href="https://sepoliafaucet.com/" target="_blank"> https://sepoliafaucet.com/</a>
 
 > ⚠️ All code associated with this course is for demo purposes only. They have not been audited and should not be considered production ready. Please use at your own risk. 
 
@@ -300,7 +299,7 @@ Backup Faucet: https://goerlifaucet.com/
 </li>
 <li><a href="#rafflesol-staging-tests">Raffle.sol Staging Tests</a></li>
 <li><a href="#testing-on-a-testnet">Testing on a Testnet</a><ul>
-<li><a href="#recommended-link-amounts-for-goerli-staging-test">Recommended LINK amounts for Goerli Staging Test:</a></li>
+<li><a href="#recommended-link-amounts-for-sepolia-staging-test">Recommended LINK amounts for Sepolia Staging Test:</a></li>
 </ul>
 </li>
 <li><a href="#conclusion">Conclusion</a></li>
@@ -543,6 +542,7 @@ Backup Faucet: https://goerlifaucet.com/
 -   [What is a blockchain](https://www.investopedia.com/terms/b/blockchain.asp)
 
 ## The Purpose Of Smart Contracts
+*[⌨️ (00:18:27) The Purpose of Smart Contracts](https://youtu.be/gyMwXuJrbJQ?t=1107)*
 - 🎥 [Original Video](https://www.youtube.com/watch?v=_JeRq7Gwj5Y&feature=youtu.be)
 - 🦬 [My ETH Denver Talk](https://www.youtube.com/watch?v=06hXCX_jj2E)
 - 🍔 [McDonalds Scandal](https://www.chicagotribune.com/sns-mcdonalds-story.html)
@@ -552,6 +552,7 @@ Backup Faucet: https://goerlifaucet.com/
 - 🔮 [Chainlink & Oracles](https://www.youtube.com/watch?v=tIUHQ7sDoaU)
 
 ## Other Blockchain Benefits
+*[⌨️ (00:30:41) Other Blockchain Benefits](https://youtu.be/gyMwXuJrbJQ?t=1841)*
 - Decentralized
 - Transparency & Flexibility
 - Speed & Efficiency
@@ -559,7 +560,8 @@ Backup Faucet: https://goerlifaucet.com/
 - Counterparty Risk Removal
 - Trust Minimized Agreements
 
-## What have Smart Contracts done so far? 
+## What have Smart Contracts done so far?
+*[⌨️ (00:36:36) What have Smart Contracts done so far?](https://youtu.be/gyMwXuJrbJQ?t=2196)*
 - [DeFi](https://chain.link/education/defi)
   - [Defi Llama](https://defillama.com/)
   - [Why DeFi is Important](https://medium.com/the-capital/why-defi-1519cc4d4bd3)
@@ -567,40 +569,47 @@ Backup Faucet: https://goerlifaucet.com/
 - [NFTs](https://www.youtube.com/watch?v=9yuHz6g_P50)
 
 ## Making Your First Transaction
+*[⌨️ (00:39:17) Making Your First Transaction](https://youtu.be/gyMwXuJrbJQ?t=2357)*
 -   [Metamask Download Link](https://metamask.io/)
     -   [What is a Private Key?](https://www.coinbase.com/learn/crypto-basics/what-is-a-private-key)
     -   [What is a Secret Phrase?](https://metamask.zendesk.com/hc/en-us/articles/360060826432-What-is-a-Secret-Recovery-Phrase-and-how-to-keep-your-crypto-wallet-secure)
 -   [Etherscan](https://etherscan.io/)
--   [Goerli Etherscan](https://goerli.etherscan.io/)
--   Goerli Faucet (Check the [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#goerli))
-    -   NOTE: The Chainlink documentation always has the most up to date faucets on their [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#goerli). If the faucet above is broken, check the chainlink documentation for the most up to date faucet.
--   OR, use the [Goerli ETH Faucet](https://faucets.chain.link/), just be sure to swap your metamask to goerli!
+-   [Sepolia Etherscan](https://sepolia.etherscan.io/)
+-   Sepolia Faucet (Check the [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#sepolia))
+    -   NOTE: The Chainlink documentation always has the most up to date faucets on their [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#sepolia). If the faucet above is broken, check the chainlink documentation for the most up to date faucet.
+-   OR, use the [Sepolia ETH Faucet](https://faucets.chain.link/), just be sure to swap your metamask to Sepolia!
 
 ## Gas I: Introduction to Gas
+*[⌨️ (00:58:59) Gas I: Introduction to Gas](https://youtu.be/gyMwXuJrbJQ?t=3539)*
 -   [Gas and Gas Fees](https://ethereum.org/en/developers/docs/gas/)
 -   [Wei, Gwei, and Ether Converter](https://eth-converter.com/)
 -   [ETH Gas Station](https://ethgasstation.info/)
 
 ## How Do Blockchains Work?
+*[⌨️ (01:05:32) How Do Blockchains Work](https://youtu.be/gyMwXuJrbJQ?t=3932)*
 - [What is a hash?](https://techjury.net/blog/what-is-cryptographic-hash/)
 - [Blockchain Demo](https://andersbrownworth.com/blockchain/)
 - [Summary](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
 
 ## Signing Transactions
+*[⌨️ (01:22:55) Signing Transactions](https://youtu.be/gyMwXuJrbJQ?t=4975)*
 -   [Public / Private Keys](https://andersbrownworth.com/blockchain/public-private-keys/keys)
 -   [Layer 2 and Rollups](https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/)
 -   [Decentralized Blockchain Oracles](https://blog.chain.link/what-is-the-blockchain-oracle-problem/)
 
 ## Gas II
+*[⌨️ (01:30:22) Gas II: Block Rewards & EIP 1559](https://youtu.be/gyMwXuJrbJQ?t=5422)*
 -   [Block Rewards](https://www.investopedia.com/terms/b/block-reward.asp)
 -   Advanced Gas
     -   [EIP 1559](https://www.youtube.com/watch?v=MGemhK9t44Q)
     -   GWEI, WEI, and ETH
         -   [ETH Converter](https://eth-converter.com/)
 ## Gas II Summary
+*[⌨️ (01:36:44) Gas II Summary](https://youtu.be/gyMwXuJrbJQ?t=5804)*
 -   [Run Your Own Ethereum Node](https://geth.ethereum.org/docs/getting-started)
 
 ## High-Level Blockchain Fundamentals
+*[⌨️ (01:39:32) High-Level Blockchain Fundamentals]https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=5972s()*
 -   [Consensus](https://wiki.polkadot.network/docs/learn-consensus)
 -   [Proof of Stake](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/)
 -   [Proof of Work](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/)
@@ -616,10 +625,12 @@ Backup Faucet: https://goerlifaucet.com/
 💻 Code: https://github.com/PatrickAlphaC/simple-storage-fcc
 
 ## Introduction
+*[⌨️ (02:03:05) Introduction](https://youtu.be/gyMwXuJrbJQ?t=7385)*
 - [Remix](https://remix.ethereum.org/)
 - [Solidity Documentation](https://docs.soliditylang.org/en/latest/index.html)
 
 ## Setting Up Your First Contract
+*[⌨️ (02:05:18) Setting Up Your First Contract](https://youtu.be/gyMwXuJrbJQ?t=7518)*
 -   Versioning
 -   Take notes in your code!
 -   [What is a software license](https://snyk.io/learn/what-is-a-software-license/)
@@ -628,7 +639,8 @@ Backup Faucet: https://goerlifaucet.com/
 -   Contract Declaration
 
 ## Basic Solidity: Types
--   [Types & Declaring Variables](https://docs.soliditylang.org/en/latest/)
+*[⌨️ (02:12:28) Basic Solidity Types](https://youtu.be/gyMwXuJrbJQ?t=7948)*
+-   [Types & Declaring Variables](https://docs.soliditylang.org/en/v0.8.13/)
     -   `uint256`, `int256`, `bool`, `string`, `address`, `bytes32`
     -   [Solidity Types](https://docs.soliditylang.org/en/latest/types.html)
     -   [Bits and Bytes](https://www.youtube.com/watch?v=Dnd28lQHquU)
@@ -636,6 +648,7 @@ Backup Faucet: https://goerlifaucet.com/
 -   Comments
 
 ## Basic Solidity: Functions
+*[⌨️ (02:18:40) Basic Solidity Functions](https://youtu.be/gyMwXuJrbJQ?t=8320)*
 -   Functions
 -   Deploying a Contract
     -   Smart Contracts have addresses just like our wallets
@@ -646,6 +659,7 @@ Backup Faucet: https://goerlifaucet.com/
 -   View & Pure Functions
 
 ## Basic Solidity: Arrays & Structs
+*[⌨️ (02:35:30) Basic Solidity Arrays & Structs](https://youtu.be/gyMwXuJrbJQ?t=9331)*
 -   Structs
 -   Intro to Storage
 -   Arrays 
@@ -654,10 +668,12 @@ Backup Faucet: https://goerlifaucet.com/
 
 
 ## Basic Solidity: Compiler Errors and Warnings
+*[⌨️ (02:45:35) Basic Solidity Errors & Warnings](https://youtu.be/gyMwXuJrbJQ?t=9935)*
 - Yellow: Warnings are Ok
 - Red: Errors are not Ok
 
 ## Memory, Storage, Calldata (Intro)
+*[⌨️ (02:46:34) Basic Solidity Memory, Storage, & Calldata (Intro)](https://youtu.be/gyMwXuJrbJQ?t=9994)*
 - 6 Places you can store and access data
   - calldata
   - memory
@@ -667,16 +683,19 @@ Backup Faucet: https://goerlifaucet.com/
   - stack
 
 ## Mappings
+*[⌨️ (02:50:17) Basic Solidity Mappings](https://youtu.be/gyMwXuJrbJQ?t=10217)*
 - [Mappings](https://solidity-by-example.org/mapping)
 
 ## Deploying your First Contract
+*[⌨️ (02:53:38) Deploying your First Contract](https://youtu.be/gyMwXuJrbJQ?t=10418)*
 -   A testnet or mainnet
 -   Connecting Metamask
--   [Find a faucet here](https://docs.chain.link/docs/link-token-contracts/#goerli)
+-   [Find a faucet here](https://docs.chain.link/docs/link-token-contracts/#Sepolia)
 -   See the faucets at the top of this readme!
 -   Interacting with Deployed Contracts
 
 ## The EVM & A Recap of Lesson 2
+*[⌨️ (03:03:07) The EVM & A Recap of Lesson 2](https://youtu.be/gyMwXuJrbJQ?t=10987)*
 -   The EVM
 
 # Lesson 3: Remix Storage Factory
@@ -686,22 +705,27 @@ Backup Faucet: https://goerlifaucet.com/
 💻 Code: https://github.com/PatrickAlphaC/storage-factory-fcc
 
 ## Introduction
+*[⌨️ (03:06:06) Introduction](https://youtu.be/gyMwXuJrbJQ?t=11166)*
 - [Factory Pattern](https://betterprogramming.pub/learn-solidity-the-factory-pattern-75d11c3e7d29)
 
 ## Basic Solidity: Importing Contracts into other Contracts
+*[⌨️ (03:07:29) Importing Contracts into other Contracts](https://youtu.be/gyMwXuJrbJQ?t=11249)*
 - [Composibility](https://chain.link/techtalks/defi-composability)
 - [Solidity new keyword](https://docs.soliditylang.org/en/latest/control-structures.html?highlight=new#creating-contracts-via-new)
 - [Importing Code in solidity](https://solidity-by-example.org/import)
 
 ## Basic Solidity: Interacting with other Contracts
+*[⌨️ (03:16:36) Interacting with other contracts](https://youtu.be/gyMwXuJrbJQ?t=11796)*
 - To interact, you always need: ABI + Address
 - [ABI](https://docs.soliditylang.org/en/latest/abi-spec.html?highlight=abi)
 
 ## Basic Solidity: Inheritance & Overrides
+*[⌨️ (03:25:23) Inheritance & Overrides](https://youtu.be/gyMwXuJrbJQ?t=12323)*
 - [Inheritance](https://solidity-by-example.org/inheritance) 
 - [Override & Virtual Keyword](https://docs.soliditylang.org/en/latest/contracts.html?highlight=override#function-overriding)
 
 ## Lesson 3 Recap
+*[⌨️ (03:30:29) Lesson 3 Recap](https://youtu.be/gyMwXuJrbJQ?t=12629)*
 
 # Lesson 4: Remix Fund Me
 
@@ -1192,7 +1216,7 @@ yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
 ### Continued IV
 ## Raffle.sol Staging Tests
 ## Testing on a Testnet
-### Recommended LINK amounts for Goerli Staging Test:
+### Recommended LINK amounts for Sepolia Staging Test:
 - Chainlink VRF: 2 LINK
 - Chainlink Keepers: 8 LINK
 ## Conclusion
@@ -1347,7 +1371,7 @@ yarn create next-app .
 - [DAI](https://makerdao.com/en/)
 - [Uniswap](https://app.uniswap.org/)
 ## WETH - Wrapped ETH
-- [WETH Token Goerli Etherscan](https://goerli.etherscan.io/token/0x8b7fb00abb67ba04ce894b9e2769fe24a8409a6a)
+- [WETH Token Sepolia Etherscan](https://sepolia.etherscan.io/address/0xdd13E55209Fd76AfE204dBda4007C227904f0a81)
 - [WETH Token Mainnet](https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2)
 ## Forking Mainnet
 - [Mainnet Forking](https://hardhat.org/hardhat-network/guides/mainnet-forking.html)
